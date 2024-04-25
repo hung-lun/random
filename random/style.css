@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.options {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.option:hover {
+    border-color: #007bff;
+}
+
+.option.selected {
+    border-color: #28a745;
+}
+
+button{
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px;
+}
+
+.add{
+
+}
+
+.remove{
+    background-color:#ff2d2d41;
+}
+
+.ok{
+    background-color: #28a74541;
+}
