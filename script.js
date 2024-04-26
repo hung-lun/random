@@ -36,12 +36,11 @@ function removeOption() {
     const selectedOption = document.querySelector(".option.selected");
 
     if (!selectedOption) {
-        document.getElementById("result").innerText = "Please select an option to remove!";
+        document.getElementById("result").innerText = "alert:只能刪除綠框的選項!";
         return;
     }
 
-    selectedOption.remove();
-}
+    selectedOption.remove();}
 
 function drawWinner() {
     const options = document.querySelectorAll(".option");
@@ -53,7 +52,7 @@ function drawWinner() {
 
     // 如果沒有選項，則顯示錯誤訊息並退出函數
     if (totalOptions === 0) {
-        document.getElementById("result").innerText = "Please add options first!";
+        document.getElementById("result").innerText = "alert:請先新增選項!";
         return;
     }
 
@@ -68,7 +67,7 @@ function drawWinner() {
     const optionName = selectedOption.querySelector("input[type='text']").value;
 
     // 顯示中獎訊息
-    document.getElementById("result").innerText = `Congratulations! Let's have " ${optionName}"  for dinner!`;
+    document.getElementById("result").innerText = `恭喜! 餐點就吃 " ${optionName}"  吧!`;
 }
 
 
