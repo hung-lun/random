@@ -11,7 +11,7 @@ function addOption() {
 
     const inputProbability = document.createElement("input");
     inputProbability.type = "button";
-    inputProbability.value = "菜單";
+    inputProbability.value = "選單";
     inputProbability.disabled = "disabled";
     div.appendChild(inputProbability);
 
