@@ -46,11 +46,11 @@ body{
 input{
     bottom: 1px;
     font-size: 18px;
-
 }
 
 #result{
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .option:hover {
@@ -67,18 +67,18 @@ button{
 }
 
 .add{
-    font-size: 14px;
+    font-size: 18px;
 
 }
 
 .remove{
     background-color:#ff2d2d41;
-    font-size: 14px;
+    font-size: 18px;
 
 }
 
 .ok{
     background-color: #28a74541;
-    font-size: 14px;
+    font-size: 18px;
 
 }
