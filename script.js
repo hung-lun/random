@@ -87,6 +87,6 @@ function searchOnGoogleMap(inputid) {
         // 在新窗口中打开 Google 地图搜索页面
         window.open(googleMapURL, '_self');
     } else {
-        alert('请输入搜索内容！');
+        alert('請输入搜索内容！');
     }
 }
