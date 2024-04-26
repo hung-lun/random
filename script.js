@@ -1,4 +1,7 @@
+var count = 14;
+
 function addOption() {
+    count++;
     const optionsDiv = document.getElementById("options");
 
     const div = document.createElement("div");
@@ -7,6 +10,7 @@ function addOption() {
     const inputOption = document.createElement("input");
     inputOption.type = "text";
     inputOption.placeholder = "選項";
+    inputOption.id = count;
     div.appendChild(inputOption);
 
     const inputProbability = document.createElement("input");
@@ -65,4 +69,24 @@ function drawWinner() {
 
     // 顯示中獎訊息
     document.getElementById("result").innerText = `Congratulations! Let's have " ${optionName}"  for dinner!`;
+}
+
+
+function searchOnGoogleMap(inputid) {
+    // 获取输入框中的值
+    var searchValue = document.getElementById(inputid).value;
+    
+    // 检查是否有输入
+    if (searchValue.trim() !== '') {
+        // 将搜索值编码为 URI 组件
+        var encodedSearchValue = encodeURIComponent(searchValue);
+        
+        // 使用 Google 地图的 URL 格式进行搜索
+        var googleMapURL = 'https://www.google.com/maps/search/?api=1&query=' + encodedSearchValue;
+        
+        // 在新窗口中打开 Google 地图搜索页面
+        window.open(googleMapURL, '_self');
+    } else {
+        alert('请输入搜索内容！');
+    }
 }
