@@ -10,10 +10,9 @@ function addOption() {
     div.appendChild(inputOption);
 
     const inputProbability = document.createElement("input");
-    inputProbability.type = "number";
-    inputProbability.min = "0";
-    inputProbability.max = "100";
-    inputProbability.placeholder = "機率 (%)";
+    inputProbability.type = "button";
+    inputProbability.value = "菜單";
+    inputProbability.disabled = "disabled";
     div.appendChild(inputProbability);
 
     div.onclick = function() {
@@ -65,5 +64,5 @@ function drawWinner() {
     const optionName = selectedOption.querySelector("input[type='text']").value;
 
     // 顯示中獎訊息
-    document.getElementById("result").innerText = `Congratulations! ${optionName} is the winner!`;
+    document.getElementById("result").innerText = `Congratulations! Let's have " ${optionName}"  for dinner!`;
 }
