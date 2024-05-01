@@ -1,10 +1,19 @@
+.dev{
+    border: 2px solid #ff0000;
+}
+
 body{
     font-size: 14px;
 }
 
+
+
+
+
 #imgsrc1{
     height: 20px;
-    width: 25px;
+    margin: 10px 0px 10px 5px;
+    padding: 5px 0px;
 }
 
 #imgsrc2{
@@ -14,8 +23,12 @@ body{
 
 #imgsrc3{
     height: 20px;
-    margin: 15px 5px 15px 0px;
+    margin: 10px 5px 10px 0px;
+    padding: 5px 0px;
 }
+#imgsrc3:hover{
+    background-color: #3d415541;
+    border-radius: 5px;}
 
 #top{
     display: flex;
@@ -81,4 +94,19 @@ button{
     background-color: #28a74541;
     font-size: 18px;
 
+}
+
+
+/* index css */
+/* index css */
+/* index css */
+
+#imgsrc22{
+    height: 200px;
+    margin: 0px auto;
+}
+
+.add11{
+    font-size: 18px;
+    width: 100px;
 }

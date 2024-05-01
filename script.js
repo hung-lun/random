@@ -1,4 +1,9 @@
 var count = 14;
+// const test = document.getElementById(count+"aa");
+// console.log(test);
+// console.log(count);
+// test.addEventListener('click',searchOnGoogleMap(count));
+
 
 function addOption() {
     count++;
@@ -16,7 +21,10 @@ function addOption() {
     const inputProbability = document.createElement("input");
     inputProbability.type = "button";
     inputProbability.value = "選單";
+    inputProbability.id = count+"aa";
     inputProbability.disabled = "disabled";
+   
+    
     div.appendChild(inputProbability);
 
     div.onclick = function() {
@@ -28,9 +36,12 @@ function addOption() {
             this.classList.add("selected");
         }
     };
-
     optionsDiv.appendChild(div);
-}
+} 
+
+
+
+
 
 function removeOption() {
     const selectedOption = document.querySelector(".option.selected");
@@ -40,7 +51,10 @@ function removeOption() {
         return;
     }
 
-    selectedOption.remove();}
+    selectedOption.remove();
+    document.getElementById("result").innerText = "";
+}
+
 
 function drawWinner() {
     const options = document.querySelectorAll(".option");
@@ -67,8 +81,9 @@ function drawWinner() {
     const optionName = selectedOption.querySelector("input[type='text']").value;
 
     // 顯示中獎訊息
-    document.getElementById("result").innerText = `恭喜! 餐點就吃 " ${optionName}"  吧!`;
+    document.getElementById("result").innerText = `恭喜! 選到了 " ${optionName}" !`;
 }
+
 
 
 function searchOnGoogleMap(inputid) {
