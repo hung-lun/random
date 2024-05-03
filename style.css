@@ -16,6 +16,11 @@ body{
     padding: 5px 0px;
 }
 
+/* #imgsrc1:hover{
+    background-color: #3d415541;
+    border-radius: 5px;
+} */
+
 #imgsrc2{
     height: 50px;
     margin: 0px auto;
@@ -26,13 +31,52 @@ body{
     margin: 10px 5px 10px 0px;
     padding: 5px 0px;
 }
-#imgsrc3:hover{
+/* #imgsrc3:hover{
     background-color: #3d415541;
-    border-radius: 5px;}
+    border-radius: 5px;
+} */
 
 #top{
     display: flex;
     justify-content: space-around;
+}
+
+
+.set{
+    width: 70px;
+    height: auto;
+    background-color: #007bff;
+    padding: 15px auto;
+    border-radius: 10px;
+    position: fixed;
+    left: 1130px;
+    top: 120px;
+}
+
+.set ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 5px 0px;
+}
+
+.set ul a li{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.set ul a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.set ul a li:hover{
+    background-color: #ff1100bc;
+    border-radius: 5px;
 }
 
 .container {

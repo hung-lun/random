@@ -5,6 +5,9 @@ var count = 14;
 // test.addEventListener('click',searchOnGoogleMap(count));
 
 
+
+
+
 function addOption() {
     count++;
     const optionsDiv = document.getElementById("options");
@@ -48,6 +51,7 @@ function removeOption() {
 
     if (!selectedOption) {
         document.getElementById("result").innerText = "alert:只能刪除綠框的選項!";
+        alert("錯誤 只能刪除綠框的選項!");
         return;
     }
 
@@ -67,6 +71,7 @@ function drawWinner() {
     // 如果沒有選項，則顯示錯誤訊息並退出函數
     if (totalOptions === 0) {
         document.getElementById("result").innerText = "alert:請先新增選項!";
+        alert("錯誤 請先新增選項!");
         return;
     }
 
