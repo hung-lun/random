@@ -5,6 +5,20 @@ var count = 14;
 // test.addEventListener('click',searchOnGoogleMap(count));
 
 
+var set_btn = document.getElementById("imgsrc3");
+set_btn.addEventListener("click",
+function opensetmnu(){
+    if(document.getElementById("set_menu").style.display != "block"){
+        document.getElementById("set_menu").style.display = "block";
+    }else if(document.getElementById("set_menu").style.display == "block"){
+        document.getElementById("set_menu").style.display = "none";
+    }
+}
+)
+
+function about() {
+    alert("design by 'LUN' in 2024");
+}
 
 
 
