@@ -6,6 +6,8 @@ var count = 14;
 
 
 var set_btn = document.getElementById("imgsrc3");
+var set_menu = document.getElementById("set_menu");
+// set_menu.addEventListener("blur");
 set_btn.addEventListener("click",
 function opensetmnu(){
     if(document.getElementById("set_menu").style.display != "block"){

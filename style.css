@@ -49,7 +49,7 @@ body{
 .set{
     width: 70px;
     height: auto;
-    background-color: #007bff70;
+    background-color: #bdc5cf79;
     padding: 15px auto;
     border-radius: 10px;
     position: fixed;
@@ -81,7 +81,7 @@ body{
 }
 
 .set ul a li:hover{
-    background-color: #ff1100d8;
+    background-color: #ff110018;
     border-radius: 5px;
 }
 
