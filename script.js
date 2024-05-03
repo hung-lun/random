@@ -17,9 +17,13 @@ function opensetmnu(){
     }
 }
 )
+function turn() {
+    window.location.reload();
+    console.log('螢幕刷新');
+}
 
 function about() {
-    alert("design by 'LUN' in 2024");
+    alert("※開發中，功能未完成...\ndesign by 'LUN' in 2024");
 }
 
 
