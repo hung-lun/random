@@ -39,7 +39,7 @@ function setup() {
 }
 
 function about() {
-    alert("※開發中，功能未完成...\ndesign by 'LUN' in 2024\n\nversion  1.3    ●.系統尚在開發階段");
+    alert("※開發中，功能未完成...  \ndesign by 'LUN' in 2024  \n\nversion  v1.3.0    \n●.系統尚在開發階段");
 }
 
 
