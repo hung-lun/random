@@ -35,6 +35,13 @@ body{
     padding: 5px 0px;
     cursor: pointer;
 }
+
+#imgsrc3_1{
+    height: 20px;
+    margin: 10px 5px 10px 0px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
 /* #imgsrc3:hover{
     background-color: #3d415541;
     border-radius: 5px;
@@ -128,6 +135,11 @@ input{
 .option.selected {
     border-color: #28a745;
 }
+
+.text{
+    height: 20px;
+}
+
 
 button{
     padding: 3px 5px 3px 5px;

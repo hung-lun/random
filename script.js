@@ -6,15 +6,27 @@ var count = 14;
 
 
 var set_btn = document.getElementById("imgsrc3");
+var set_btn_1= document.getElementById("imgsrc3_1");
 var set_menu = document.getElementById("set_menu");
-// set_menu.addEventListener("blur");
+
+document.getElementById("set_btn_1").style.display = "none";
 set_btn.addEventListener("click",
 function opensetmnu(){
-    if(document.getElementById("set_menu").style.display != "block"){
+    document.getElementById("set_btn_1").style.display = "block";
+    document.getElementById("set_btn").style.display = "none";
+    // if(document.getElementById("set_menu").style.display != "block"){
         document.getElementById("set_menu").style.display = "block";
-    }else if(document.getElementById("set_menu").style.display == "block"){
-        document.getElementById("set_menu").style.display = "none";
-    }
+    // }else if(document.getElementById("set_menu").style.display == "block"){
+    //     document.getElementById("set_menu").style.display = "none";
+    // }
+}
+)
+
+set_btn_1.addEventListener("click",
+function opensetmnu(){
+    document.getElementById("set_btn").style.display = "block";
+    document.getElementById("set_btn_1").style.display = "none";
+    document.getElementById("set_menu").style.display = "none";
 }
 )
 function turn() {
@@ -22,8 +34,12 @@ function turn() {
     console.log('螢幕刷新');
 }
 
+function setup() {
+    alert("※開發中，功能未完成...");
+}
+
 function about() {
-    alert("※開發中，功能未完成...\ndesign by 'LUN' in 2024");
+    alert("※開發中，功能未完成...\ndesign by 'LUN' in 2024\n\nversion  1.3    ●.系統尚在開發階段");
 }
 
 
