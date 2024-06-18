@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>倒數計時器</title>
+    <title>628倒數計時器</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
+        .body {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: calc(85vh);
             margin: 0;
             background-color: #f0f0f0;
         }
@@ -26,7 +27,19 @@
     </style>
 </head>
 <body>
-    <div id="countdown">
+    <div id="top"><a onclick="window.location.href = 'index.html'"><img id="imgsrc1" src="direction.png"></img></a><img id="imgsrc2" src="main1.png"><a id="set_btn"><img id="imgsrc3" src="test.png" ></a><a id="set_btn_1"><img id="imgsrc3_1" src="cross.png" ></a></div>
+
+        <div class="set" id="set_menu">
+            <nav>
+                <ul>
+                    <a href="#" onclick="turn()"><li>重設/刷新</li></a>
+                    <a href="#" onclick="setup()"><li>系統設定</li></a>
+                    <a href="#" onclick="about()"><li>關於系統</li></a>
+                </ul>
+            </nav>
+        </div>
+    <div id="countdown" class="body">
+        距離6/28 18:59:59還有　　
         <span id="days"></span> 天 
         <span id="hours"></span> 小時 
         <span id="minutes"></span> 分 
@@ -63,5 +76,6 @@
             }
         }, 1000);
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
