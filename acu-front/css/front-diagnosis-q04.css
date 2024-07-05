@@ -28,9 +28,9 @@ body {
     text-decoration: none;
 }
 
-#logout1{
+/* #logout1{
     display: none;
-}
+} */
 
 input[type=text] {
     width: 50%;
@@ -277,7 +277,7 @@ header {
     height: 30%;
 }
 .medicine-button-space{
-    height: 70%;
+    height: 7 0%;
 }
 label{
     display: flex;
