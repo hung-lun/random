@@ -111,6 +111,15 @@ header {
     width: 100%;
 }
 
+.info{
+    position: relative;
+    z-index: 99;
+    width: 70%;
+    height: 50%;
+    background-color: #D8A36B;
+    top: 200px;
+}
+
 .footer{
     height: 100px;
     width: 100%;
