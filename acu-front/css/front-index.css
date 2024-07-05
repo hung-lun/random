@@ -112,7 +112,7 @@ header {
 }
 
 .footer{
-    height: 60px;
+    height: 100px;
     width: 100%;
     background-color: #E0DFD5;
     position: fixed;
@@ -126,7 +126,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-    margin-top: 15px;
+    margin-top: 45px;
     padding-top: 2px;
     border-top: 1px solid #C63300;
     color: #DDAA00;
