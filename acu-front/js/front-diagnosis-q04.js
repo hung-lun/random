@@ -14,7 +14,7 @@
     //登出---平板
 var logout11 = document.getElementById("logout1");
 logout11.addEventListener("click", logout111);
-    function logout11() {
+    function logout111() {
         if (confirm('確認要重整答題記錄嗎？') == true) {
             alert("clear scussful")
             localStorage.clear();
