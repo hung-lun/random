@@ -124,7 +124,7 @@ header {
     height: 100px;
     width: 100%;
     background-color: #E0DFD5;
-    /*position: fixed;*/
+    position: fixed;
     z-index: 9;
     bottom: 0px;
 }
