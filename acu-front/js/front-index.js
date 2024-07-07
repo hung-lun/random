@@ -17,7 +17,9 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
 
     //登出---平板
     var logout11 = document.getElementById("logout1");
+    var logout12 = document.getElementById("logout2");
     logout11.addEventListener("click", logout111);
+    logout12.addEventListener("click", logout111);
         function logout111() {
             if (confirm('確認要重整答題記錄嗎？') == true) {
                 alert("clear scussful")

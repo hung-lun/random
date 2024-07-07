@@ -234,10 +234,10 @@ header {
         padding: 0px 15px;
     }
 
-    #logout{
+    #logout1{
         display: none;
     }
-    #logout1{
+    #logout2{
         display: flex;
     }
     .center-box{
@@ -245,7 +245,7 @@ header {
     }
     .center-box1{
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         margin-top: 80px;
         background-color: #D8A36B;
         /* padding: 10px 0px; */
@@ -281,5 +281,15 @@ header {
         font-size: 24px;
         color: #5D3A00;
         font-weight: bold;
+    }
+    .footer { 
+        font-size: 8px;
+        height: 50px;
+    }
+    .footer a{
+        margin-top: 18px;
+    }
+    .modal{
+        margin-top: 30px;
     }
 }

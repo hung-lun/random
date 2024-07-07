@@ -28,7 +28,7 @@
     }
 
     .modal-content {
-        background-color: #fefefe;
+        background-color: #E0DFD5;
         margin: 15% auto; /* 中心對齊 */
         padding: 20px;
         border: 1px solid #888;
@@ -107,20 +107,21 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="./front-diagnosis-q01.html">症狀診斷</a>
+                    <a href="../index.html"><i class="fa-solid fa-house"></i>回首頁</a>
                 </li>
                 <li>
-                    <a href="./front-rehabilitation.html">穴位復健</a>
+                    <a href="./front-diagnosis-q01.html"><i class="fa-solid fa-square-poll-horizontal"></i>症狀診斷</a>
                 </li>
                 <li>
-                    <a href="./front-history.html">歷史紀錄</a>
+                    <a href="./front-rehabilitation.html"><i class="fa-solid fa-tv"></i>穴位復健</a>
                 </li>
+                <!-- <li>
+                    <a id="logout" class="mouse"><i class="fa-solid fa-right-from-bracket">登出</i></a>
+                </li> -->
                 <li>
-                    <a href="./front-edit-profile.html">修改個人資料</a>
+                    <a id="logout2" class="mouse"><i class="fa-solid fa-eraser"></i></a> <!--平板RWD-->
                 </li>
-                <li>
-                    <a id="logout2" class="mouse"><i class="fa-solid fa-right-from-bracket">登出</i></a>
-                </li>
+                <li><a id="information2"><i class="fa-solid fa-circle-exclamation"></i></a></li>
             </ul>
         </nav>
     </div>
@@ -133,18 +134,33 @@
     // 獲取元素
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("information");
+    var btn1 = document.getElementById("information2");
     var span = document.getElementsByClassName("close")[0];
 
     // 假設這是要顯示的通知訊息
     var notifications = [
-        "版本號：v0.003",
+        "版本號：v0.1.3",
         "1.系統進行測試階段中，預計7月底完成",
         "2.修正穴位復健頁面無法顯示問題",
-        "3.修正無法顯示圖示問題"
+        "3.修正無法顯示圖示問題",
+        "4.新增首頁網頁手機版RWD"
     ];
 
     // 打開視窗並加載通知訊息
     btn.onclick = function() {
+        var notificationList = document.getElementById("notificationList");
+        notificationList.innerHTML = ""; // 清空現有的通知
+
+        notifications.forEach(function(notification) {
+            var li = document.createElement("li");
+            li.textContent = notification;
+            notificationList.appendChild(li);
+        });
+
+        modal.style.display = "block";
+    }
+        // 打開視窗並加載通知訊息
+        btn1.onclick = function() {
         var notificationList = document.getElementById("notificationList");
         notificationList.innerHTML = ""; // 清空現有的通知
 
