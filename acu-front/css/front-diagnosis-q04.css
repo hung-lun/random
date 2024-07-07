@@ -32,6 +32,9 @@ body {
     display: none;
 } */
 
+.logo2{
+    display: none
+}
 input[type=text] {
     width: 50%;
     padding: 10px 15px;
@@ -429,5 +432,78 @@ input[type="radio"] {
     }
     #logout1{
         display: flex;
+    }
+}
+@media screen and (max-width: 550px) {
+
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }
+    .logo2 img {
+        width: 100px; 
+    }
+
+    table{
+        padding: 0px;
+    }
+    
+    .title{
+        display: block;
+    }
+    .title-left{
+        font-size: 28px;
+    }
+    .title-center{
+        font-size: 8px;
+    }
+    .title-right{
+        font-size: 15px;
+    }
+
+    .result{
+        display: block;
+        padding: 5px 0px 5px 10px;
+    }
+    .result01{
+        font-size: 15px;
+    }
+    .result02{
+        font-size: 30px;
+    }
+    .result03{
+        font-size: 15px;
+    }
+    .result04{
+        font-size: 22px;
+        margin: 0px;
+    }
+    .result001{
+        font-size: 15px;
+    }
+
+    .Q-title{
+        font-size: 15px;
+    }
+    .Q-option{
+        font-size: 15px;
+    }
+
+    .next{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 100px;
+    }
+    .next button{
+        font-size: 20px;
+    }
+    .next a{
+        font-size: 20px;
+    }
+    input[type=radio]{
+        width: 18px;
+        height: 18px;
     }
 }
