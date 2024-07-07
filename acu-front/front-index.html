@@ -40,6 +40,11 @@
     .modal-content ul{
         /*取消項目符號*/
     list-style-type: none;
+    color: #5D3A00;
+    }
+
+    h2{
+        color: #5D3A00;
     }
 
     .close {
@@ -91,7 +96,7 @@
     <!-- 浮動視窗 -->
 <div id="myModal" class="modal">
     <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close"><i class="fa-solid fa-xmark"></i></span>
         <h2><i class="fa-solid fa-check-double"></i>通知</h2>
         <ul id="notificationList">
             <!-- 通知訊息將插入這裡 -->
@@ -132,8 +137,10 @@
 
     // 假設這是要顯示的通知訊息
     var notifications = [
-        "通知1: 測試",
-        "通知2: 系統進行維護中...。"
+        "版本號：v0.003",
+        "1.系統進行測試階段中，預計7月底完成",
+        "2.修正穴位復健頁面無法顯示問題",
+        "3.修正無法顯示圖示問題"
     ];
 
     // 打開視窗並加載通知訊息
