@@ -481,7 +481,26 @@ input[type="radio"] {
         margin: 0px;
     }
     .result001{
+        padding: 5px 10px;
         font-size: 15px;
+    }
+
+    .result-content{
+        display: block;
+    }
+    .medicine{
+        font-size: 32px;
+    }
+    .result-content-left{
+        width: 100%;
+    }
+    .result-content-right{
+        width: 100%;
+    }
+    .medicine-button{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .Q-title{
