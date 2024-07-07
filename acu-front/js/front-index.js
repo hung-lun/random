@@ -21,10 +21,11 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
     logout11.addEventListener("click", logout111);
     logout12.addEventListener("click", logout111);
         function logout111() {
-            if (confirm('確認要重整答題記錄嗎？') == true) {
-                alert("clear scussful")
+            if (confirm('確認要重整OSDI分數記錄嗎？') == true) {
                 localStorage.clear();
+                alert("clear successful");
             } else {
+                alert("clear fail");
                 return false;
             }
         }
