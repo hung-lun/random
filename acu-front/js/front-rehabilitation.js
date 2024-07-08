@@ -38,7 +38,7 @@
                 video.srcObject = stream;
                 video.play();
                 var point = document.getElementById("point");
-                point.innerHTML="<iframe width='100%' height='100%' id='iframe' frameborder='0' scrolling='auto' src='./front-points-button.html'></iframe>";            
+                point.innerHTML="<iframe width='100%' height='100%' id='iframe' frameborder='0' scrolling='auto' src='./front-points-button.html' autoplay  playsinline></iframe>";            
              })
              .catch(function(error) {
                  console.error("無法訪問攝像頭: ", error);
