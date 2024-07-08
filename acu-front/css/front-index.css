@@ -216,14 +216,14 @@ header {
 @media screen and (max-width: 550px) {
 
     header{
-        height: 80px;
+        height: 85px;
     }
     .header-content{
         height: 80px;
     }
 
     .logo img {
-        width: 200px;
+        width: 180px;
     }
 
     .menu {
