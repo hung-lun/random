@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <https://github.com/hung-lun/random/edit/main/acu-front/front-index.html!--網站icon-->
+    <link rel="icon" href="./img/webicon.png" type="image/x-icon" />
+    <!--網站icon-->
+    <link rel="stylesheet" href="./css/front-index.css">
+    <title>首頁</title>
+</head>
+<style>
+    @media screen and (max-width: 550px) {
+        header{
+        height: 80px;
+    }
+}
+
+    /* 簡單的樣式 */
+    .modal {
+        /* display: none; 隱藏 */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5); /* 黑色背景透明度 */
+    }
+
+    .modal-content{
+        background-color: #E0DFD5;
+        margin: 15% auto 0px auto; /* 中心對齊 */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+    
+    .modal-content1{
+        background-color: #E0DFD5;
+        margin: 10px auto 120px auto; /* 中心對齊 */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .modal-content ul,
+    .modal-content1 ul{
+        /*取消項目符號*/
+    list-style-type: none;
+    color: #5D3A00;
+    }
+
+    h2{
+        color: #5D3A00;
+    }
+
+</style>
+<body>
+    <img class="bg" src="./img/background.jpg">
+    <header>
+        <div class="header-content">
+            <div class="logo ">
+                <a href="./front-index.html"><img src="./img/mainlogo.png "></a> 
+            </div>
+    </header>
+    <!-- 浮動視窗 -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <!-- <span class="close"><i class="fa-solid fa-xmark"></i></span> -->
+        <h2><i class="fa-solid fa-gears"></i>系統維護中</h2>
+        <ul id="notificationList">
+            <!-- 通知訊息將插入這裡 -->
+        </ul>
+    </div>
+    <div class="modal-content1">
+        <ul id="notificationList1">
+            <li><i class="fa-solid fa-circle-info"></i>         2024 Acupoints.</li><!-- ⚠️測試中<i class="fa-solid fa-compass"></i>測試環境使用Chrome v128.0.6478.153 -->
+        </ul>
+    </div>
+</div>
+        <!-- 浮動視窗 -->
+    <div class="footer"><a>版權所有 Copyright © 2024 Acupoints. All rights reserved.</a></div>
+</body>
+    
+</html>
