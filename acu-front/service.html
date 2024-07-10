@@ -11,7 +11,7 @@
     <link rel="icon" href="./img/webicon.png" type="image/x-icon" />
     <!--網站icon-->
     <link rel="stylesheet" href="./css/front-index.css">
-    <title>首頁</title>
+    <title>系統維護</title>
 </head>
 <style>
     @media screen and (max-width: 550px) {
@@ -77,19 +77,31 @@
 <div id="myModal" class="modal">
     <div class="modal-content">
         <!-- <span class="close"><i class="fa-solid fa-xmark"></i></span> -->
-        <h2><i class="fa-solid fa-gears"></i>系統維護中</h2>
+        <h2><i class="fa-solid fa-gears"></i> 系統維護</h2>
         <ul id="notificationList">
             <!-- 通知訊息將插入這裡 -->
         </ul>
     </div>
-    <div class="modal-content1">
+    <div id="back" class="modal-content1">
         <ul id="notificationList1">
-            <li><i class="fa-solid fa-circle-info"></i>         2024 Acupoints.</li><!-- ⚠️測試中<i class="fa-solid fa-compass"></i>測試環境使用Chrome v128.0.6478.153 -->
+            <!-- <li><i class="fa-solid fa-circle-info"></i>         2024 Acupoints.</li>⚠️測試中<i class="fa-solid fa-compass"></i>測試環境使用Chrome v128.0.6478.153 -->
+            <li><a href="login.html">維護完畢，請按此回登入頁</a></li>
         </ul>
     </div>
 </div>
         <!-- 浮動視窗 -->
     <div class="footer"><a>版權所有 Copyright © 2024 Acupoints. All rights reserved.</a></div>
 </body>
+
+
+
+<!-- 維護中請關閉註解,js也是 -->
+<script>
     
+    var back = document.getElementById("back");
+    back.style.display = "none";
+
+</script>
+
+
 </html>
