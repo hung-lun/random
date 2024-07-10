@@ -1,3 +1,10 @@
+var ppwd = localStorage.getItem("pwd"); //抓名為pwd的localStoragea存入pwd輸入框的value資料
+if(ppwd != "test"){
+    alert("ERROR");
+    window.location.href = "login.html";
+}
+
+
 // //登出
 // var logout1 = document.getElementById("logout");
 // logout1.addEventListener("click", logout);

@@ -83,7 +83,7 @@
                 <nav class="menu">
                     <ul>
                         <li>
-                            <a style="color: red;" href="./login.html"><i class="fa-solid fa-person-running"></i>離開</a>
+                            <a style="color: red;" href="./login.html" onclick="return logout();"><i class="fa-solid fa-person-running"></i>離開</a>
                         </li>
                         <li>
                             <a href="./front-diagnosis-q01.html"><i class="fa-solid fa-square-poll-horizontal"></i>症狀診斷</a>
@@ -115,7 +115,7 @@
     </div>
     <div class="modal-content1">
         <ul id="notificationList1">
-            <li><i class="fa-solid fa-compass"></i>測試環境使用Chrome v128.0.6478.153</li><!-- ⚠️測試中 -->
+            <li><i class="fa-solid fa-circle-info"></i>         2024 Acupoints.</li><!-- ⚠️測試中<i class="fa-solid fa-compass"></i>測試環境使用Chrome v128.0.6478.153 -->
         </ul>
     </div>
 </div>
@@ -124,7 +124,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a style="color: red;" href="./login.html"><i class="fa-solid fa-person-running"></i>離開</a>
+                    <a style="color: red;" href="./login.html" onclick="return logout();"><i class="fa-solid fa-person-running"></i>離開</a>
                 </li>
                 <li>
                     <a href="./front-diagnosis-q01.html"><i class="fa-solid fa-square-poll-horizontal"></i>症狀診斷</a>
@@ -156,12 +156,12 @@
 
     // 假設這是要顯示的通知訊息
     var notifications = [
-        "目前版本號：v1.1.7",
+        "目前版本號：v2.0",
         "　",
         "1.新增部分手機版網頁RWD",
-        "2.修正穴位復健攝像頭無法顯示問題(ios)",
-        "3.修正部分CSS RWD",
-        "4.修正手機版網頁選單無法顯示問題"
+        "2.修正部分CSS RWD",
+        "3.新增安全性功能",
+        "4.修正穴位復健畫面跑版問題"
     ];
 
     // 打開視窗並加載通知訊息

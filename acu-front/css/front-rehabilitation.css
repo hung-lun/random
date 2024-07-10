@@ -432,6 +432,7 @@ header {
     .all-content{
         height: auto;
         margin-top: 20px;
+        background-color: #ffffff00;
     }
     .contentt{
         display: block;

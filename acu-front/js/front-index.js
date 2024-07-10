@@ -1,3 +1,9 @@
+var ppwd = localStorage.getItem("pwd"); //抓名為pwd的localStoragea存入pwd輸入框的value資料
+if(ppwd != "test"){
+    alert("ERROR");
+    window.location.href = "login.html";
+}
+
 //登出
 // var logout1 = document.getElementById("logout");
 // var logout2 = document.getElementById("logout1");  //平板RWD登出按鈕
@@ -22,7 +28,10 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
     logout12.addEventListener("click", logout111);
         function logout111() {
             if (confirm('確認要重整OSDI分數記錄嗎？') == true) {
-                localStorage.clear();
+                // localStorage.clear();
+                localStorage.removeItem('score');
+                localStorage.removeItem('fin_score');
+
                 alert("clear successful");
             } else {
                 alert("clear fail");
@@ -45,3 +54,8 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
         }
     }
 
+
+
+    function logout() {
+        localStorage.clear();
+    }
