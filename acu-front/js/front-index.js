@@ -43,7 +43,7 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
 var score = localStorage.getItem("score");
 var fin_score = localStorage.getItem("fin_score");        
 var test = document.getElementById("test");
-if((score == Null) & (fin_score == Null)){
+if((score != Null) & (fin_score != Null)){
     test.innerHTML = "無資料"
 }else{
     test.innerHTML = "有資料"
