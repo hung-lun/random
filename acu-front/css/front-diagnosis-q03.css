@@ -167,7 +167,12 @@ header {
     .Q-button-group{
         padding: 0px 0px;
     }
-
+    
+	.Q-button:hover{
+        background-color: #DDCFAB;
+        color: #74512E;
+    }
+    
     #logout{
         display: none;
     }
@@ -200,7 +205,12 @@ header {
     .Q-button-group{
         padding: 0px 0px;
     }
-
+    
+	.Q-button:hover{
+        background-color: #DDCFAB;
+        color: #74512E;
+    }
+    
     #logout{
         display: none;
     }
