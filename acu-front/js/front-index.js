@@ -45,7 +45,7 @@ var score = localStorage.getItem("score");
 var fin_score = localStorage.getItem("fin_score");        
 var test = document.getElementById("test");
 if((score != null) || (fin_score != null)){
-    test.innerHTML = "有資料"; 
+    test.innerHTML = "OSDI有紀錄"; 
 }
 
 
