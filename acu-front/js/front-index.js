@@ -33,6 +33,7 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
                 localStorage.removeItem('fin_score');
 
                 alert("clear successful");
+                location.reload();
             } else {
                 alert("clear fail");
                 return false;
