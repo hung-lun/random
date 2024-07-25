@@ -159,17 +159,18 @@
 
     // 假設這是要顯示的通知訊息
     var notifications = [
-        "目前版本號：v2.0",
+        "目前版本號：v3.0",
         "　",
         "1.新增部分手機版網頁RWD",
         "2.修正部分CSS RWD",
         "3.新增安全性功能",
         "4.修正穴位復健畫面跑版問題"
+        "5.新增OSDI資料顯示"
     ];
 
     // 打開視窗並加載通知訊息
     btn.onclick = function() {
-        var notificationList = document.getElementById("notificationList");
+        var notificationList = document.getElementById("notific		ationList");
         notificationList.innerHTML = ""; // 清空現有的通知
 
         notifications.forEach(function(notification) {
