@@ -44,7 +44,7 @@ var score = localStorage.getItem("score");
 var fin_score = localStorage.getItem("fin_score");        
 var test = document.getElementById("test");
 if((score != null) || (fin_score != null)){
-    test.innerHTML = score;
+    test.innerHTML = score; 
 }
 
 
