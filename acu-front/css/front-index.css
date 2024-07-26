@@ -253,7 +253,7 @@ header {
     .center-box1{
         display: flex;
         /* align-items: center; */
-        margin-top: 80px;
+        margin-top: 40px;
         background-color: #D8A36B;
         /* padding: 10px 0px; */
         position: fixed;
