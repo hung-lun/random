@@ -46,7 +46,7 @@ var fin_score = localStorage.getItem("fin_score");
 var test = document.getElementById("test");
 if((score != null) || (fin_score != null)){
     test.innerHTML = "OSDI有紀錄"; 
-    test.style.color = "#E6E6FA"
+    test.style.color = #E6E6FA;
 }
 
 
