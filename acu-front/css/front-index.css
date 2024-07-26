@@ -224,6 +224,10 @@ header {
         height: 80px;
     }
 
+.test2{ 
+    border: 1px solid #DDAA00;
+    }
+    
     .logo img {
         width: 180px;
         height: 80px;
