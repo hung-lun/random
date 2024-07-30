@@ -46,9 +46,9 @@ var fin_score = localStorage.getItem("fin_score");
 var test = document.getElementById("test");
 var test2 = document.getElementById("test2");
 if((score != null) || (fin_score != null)){
-    test.innerHTML = "OSDI有紀錄"; 
-    test.style.color = 'red';
-    test2.style.color = 'red';
+    // test.innerHTML = "OSDI有紀錄"; 
+    // test.style.color = 'red';
+    // test2.style.color = 'red';
     logout11.style.color = 'red';
     logout12.style.color = 'red';
 }
