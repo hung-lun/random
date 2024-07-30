@@ -43,8 +43,8 @@ var logout3 = document.getElementById("logout2");  //手機RWD登出按鈕
 
 var score = localStorage.getItem("score");
 var fin_score = localStorage.getItem("fin_score");        
-var test = document.getElementById("test");
-var test2 = document.getElementById("test2");
+// var test = document.getElementById("test");
+// var test2 = document.getElementById("test2");
 if((score != null) || (fin_score != null)){
     // test.innerHTML = "OSDI有紀錄"; 
     // test.style.color = 'red';
