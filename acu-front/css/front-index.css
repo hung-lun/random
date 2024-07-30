@@ -17,7 +17,7 @@ body {
     object-fit: cover;
     opacity: 0.5;
     position: fixed;
-    /* z-index: -1; */
+    z-index: -1;
 }
 
 .mouse {
@@ -214,6 +214,9 @@ header {
 }
 
 @media screen and (max-width: 550px) {
+    .tool{
+        display: none;
+    }
 
     header{
         height: 85px;
@@ -257,6 +260,7 @@ header {
         position: fixed;
         right: 0px;
         height: calc(100% - 80px);
+        /* z-index: 2; */
     }
     /* .menu{
         display: block;

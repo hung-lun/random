@@ -14,9 +14,14 @@
     <title>首頁</title>
 </head>
 <style>
+    .tool{
+        z-index: 1;
+        margin-top: 180px;
+        border-radius: 15px;
+    }
     /* 簡單的樣式 */
     .modal {
-        /* display: none;  隱藏 */
+        display: none;  
         position: fixed;
         z-index: 1;
         left: 0;
@@ -105,7 +110,7 @@
             <a id="mm" class="mm"><i class="fa-solid fa-bars"></i></a> <!--手機RWD-->
         </div>
     </header>
-   <!-- <iframe class="tool" id="tool" src="./acupoint_tool_202407.pdf" width="100%" height="600px" frameborder=0 scrolling=auto></iframe> -->
+   <iframe class="tool" id="tool" src="./acupoint_tool_202407.pdf" width="30%" height="400px" frameborder=0 scrolling=auto></iframe>
     <!-- 浮動視窗 -->
 <div id="myModal" class="modal">
     <div class="modal-content">
@@ -113,7 +118,7 @@
         <h2><i class="fa-solid fa-check-double"></i>通知</h2>
         <ul id="notificationList">
             <!-- 通知訊息將插入這裡 -->
-            <li>系統將於2024/07/30 11：00進行維護作業，造成不便請見諒。</li>
+            <!-- <li>系統將於2024/07/30 11：00進行維護作業，造成不便請見諒。</li> -->
         </ul>
     </div>
     <div class="modal-content1">
