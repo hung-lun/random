@@ -50,7 +50,7 @@ if((score != null) || (fin_score != null)){
     test.style.color = 'red';
     test2.style.color = 'red';
     logout11.style.color = 'red';
-	logout12.style.color = 'red'; 
+    logout12.style.color = 'red';
 }
 
 
