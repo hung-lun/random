@@ -210,7 +210,7 @@ if(ppwd != "test"){
     }else{
         medicine_button.innerHTML="<label><input id='m0001' class='mouse button' type='radio' name='MM' value='枸杞菊花茶' checked/><span class='medicine-button mouse'>枸杞菊花茶</span></label><label><input id='m0002' class='mouse button' type='radio' name='MM' value='枸杞夏枯草' /><span class='medicine-button mouse'>枸杞夏枯草</span></label><label><input id='m0003' class='mouse button' type='radio' name='MM' value='黃耆枸杞紅棗茶' /><span class='medicine-button mouse'>黃耆枸杞紅棗茶</span></label>"
         result04.innerHTML = "”與多症狀類型相符”";
-         result00.innerHTML = "<div class='result001'>”與多症狀類型相符，日常可以多飲用以下中藥食療，進階中醫食療請向中醫師諮詢。”</div>";
+         result00.innerHTML = "<div class='result001'>”⚠️與多症狀類型相符，日常可以多飲用以下中藥食療，進階中醫食療請向中醫師諮詢。⚠️”</div>";
     
         var m0001 = document.getElementById("m0001");  //枸杞菊花茶
         m0001.addEventListener("click", m00011);
