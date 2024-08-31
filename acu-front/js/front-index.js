@@ -70,5 +70,10 @@ if((score != null) || (fin_score != null)){
 
 
     function logout() {
-        localStorage.clear();
+        
+        if (confirm('確認要離開嗎？') == true) {
+                localStorage.clear();
+            } else {
+                return false;
+            }
     }
